@@ -10,6 +10,5 @@ Not Ready right now. But I will finish it soon.
 
 **TODO:**
  - Create User Client
- - Create working Chat Log
  - Fixing Server Client
  - Create Message Encryption(maybe... take a long time)
