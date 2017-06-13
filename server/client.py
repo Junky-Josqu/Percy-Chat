@@ -9,6 +9,7 @@ def create_client():
     else:
         print 'Create Server with %s name' % (name)
         server_client = Server_client(name)
+        
 class Server_client(object):
 	def __init__(self, server_name = 'A John Server'):
 		self.server_name = server_name
@@ -32,7 +33,7 @@ class Server_client(object):
 		else:
 			print 'Wrong Command'
 		'''
-	def server_client_interface(self, wanted_command):
+	def server_client_interface(self, wanted_command):t
 		print 'SERVER CLIENT: %s' % (self.server_name)
 		#print self.server.give_last_message()
 		self.server_client_search_command(wanted_command)
